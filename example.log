@@ -1,0 +1,54 @@
+2019-07-11 14:46:35,655 - C:/Users/Renato/Documents/TIOBE.csv succeded.
+2019-07-11 18:21:18,764 - Exception ocurred
+Traceback (most recent call last):
+  File "C:/Users/Renato/Documents/LogisticRegression/postgreConnection.py", line 23, in connect
+    postgresConnection.connection = psycopg2.connect("dbname="+self.dbname+" user="+self.user+" password"+self.password+" host="+self.host+" port="+self.port)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\__init__.py", line 125, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\extensions.py", line 152, in make_dsn
+    parse_dsn(dsn)
+psycopg2.ProgrammingError: invalid dsn: missing "=" after "passwordpostgres" in connection info string
+
+2019-07-11 18:21:39,111 - Exception ocurred
+Traceback (most recent call last):
+  File "C:/Users/Renato/Documents/LogisticRegression/postgreConnection.py", line 23, in connect
+    postgresConnection.connection = psycopg2.connect("dbname="+self.dbname+" user="+self.user+" password"+self.password+" host="+self.host+" port="+self.port)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\__init__.py", line 125, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\extensions.py", line 152, in make_dsn
+    parse_dsn(dsn)
+psycopg2.ProgrammingError: invalid dsn: missing "=" after "passwordpostgres" in connection info string
+
+2019-07-11 18:21:49,028 - Exception ocurred
+Traceback (most recent call last):
+  File "C:/Users/Renato/Documents/LogisticRegression/postgreConnection.py", line 23, in connect
+    postgresConnection.connection = psycopg2.connect("dbname="+self.dbname+" user="+self.user+" password"+self.password+" host="+self.host+" port="+self.port)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\__init__.py", line 125, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\extensions.py", line 152, in make_dsn
+    parse_dsn(dsn)
+psycopg2.ProgrammingError: invalid dsn: missing "=" after "passwordpostgres" in connection info string
+
+2019-07-11 18:24:46,579 - Exception ocurred
+Traceback (most recent call last):
+  File "C:/Users/Renato/Documents/LogisticRegression/postgreConnection.py", line 23, in connect
+    postgresConnection.connection = psycopg2.connect("dbname="+self.dbname+" user="+self.user+" password"+self.password+" host="+self.host+" port="+self.port)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\__init__.py", line 125, in connect
+    dsn = _ext.make_dsn(dsn, **kwargs)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\extensions.py", line 152, in make_dsn
+    parse_dsn(dsn)
+psycopg2.ProgrammingError: invalid dsn: missing "=" after "passwordpostgres" in connection info string
+
+2019-07-11 18:25:24,883 - Exception ocurred
+Traceback (most recent call last):
+  File "C:/Users/Renato/Documents/LogisticRegression/postgreConnection.py", line 23, in connect
+    postgresConnection.connection = psycopg2.connect("dbname="+self.dbname+" user="+self.user+" password="+self.password+" host="+self.host+" port="+self.port)
+  File "C:\Users\Renato\Anaconda3\lib\site-packages\psycopg2\__init__.py", line 126, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5439?
+
+2019-07-11 18:25:56,532 - Connection Established.
+2019-07-11 18:51:13,167 - C:/Users/Renato/Documents/Sportsdirect.xlsx succeded.
+2019-07-11 18:51:37,088 - C:/Users/Renato/Documents/Source_Staging_Count.xlsx succeded.
